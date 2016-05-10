@@ -19,7 +19,7 @@ namespace MVC5.Models
         public string CreditCard { get; set; }
         public DateTime LastLogin { get; set; }
         public int LoginCount { get; set; }
-        public virtual ICollection<UserRole> UserRoles { get; set; }
-        public virtual ICollection<Car> UserOwnCar { get; set; }
+        //public virtual ICollection<UserRole> UserRoles { get; set; }
+        //public virtual ICollection<Car> UserOwnCar { get; set; }
     }
 }

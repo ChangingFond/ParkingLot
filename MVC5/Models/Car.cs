@@ -12,6 +12,6 @@ namespace MVC5.Models
         public string LicensePlate { get; set; } 
         public string Status { get; set; }
         public string AddTime { get; set; }
-        public User User { get; set; }
+       // public User User { get; set; }
     }
 }

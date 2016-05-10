@@ -9,6 +9,7 @@ namespace MVC5.Models
     {
         public int ID { get; set; }
         public int UserID { get; set; }
+        public int CarID { get; set; }
         public string SpotID { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
